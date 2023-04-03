@@ -14,3 +14,12 @@ function centralizarTitulo() {
   titulo.style.transform = 'translate(-50%, -50%)';
   titulo.style.textAlign = 'center';
 }
+function estilizarTitulo() {
+  const titulo = document.getElementById('titulo');
+  titulo.style.color = 'rgb(255, 255, 255)';
+  titulo.style.textAlign = 'center';
+  titulo.style.position = 'absolute';
+  titulo.style.top = '50%';
+  titulo.style.left = '50%';
+  titulo.style.transform = 'translate(-50%, -50%)';
+}

@@ -2,3 +2,19 @@ body {
   /* Definir um background padrão */
   background-color: #a73c3c;
 }
+#titulo {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  color: rgb(0, 0, 0);
+}
+
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
