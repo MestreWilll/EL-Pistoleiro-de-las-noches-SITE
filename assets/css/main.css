@@ -2657,6 +2657,7 @@ input, select, textarea {
 
 		header.major h2 {
 			font-size: 2em;
+			font-weight: bold;
 		}
 
 			header.major h2:after {
@@ -2666,6 +2667,7 @@ input, select, textarea {
 				height: 2px;
 				margin: 0.7em 0 1em 0;
 				border-radius: 2px;
+				
 			}
 
 				section.special header.major h2:after, article.special header.major h2:after {
@@ -2676,6 +2678,7 @@ input, select, textarea {
 		header.major p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			
 		}
 
 		header.major.special {
@@ -2689,16 +2692,20 @@ input, select, textarea {
 
 	footer.major {
 		margin-top: 3em;
+		font-weight: bolder;
+		
 	}
 
 	@media screen and (max-width: 736px) {
 
 		header.major {
 			margin-bottom: 0;
+			
 		}
 
 			header.major h2 {
 				font-size: 1.5em;
+				
 			}
 
 			header.major p {
@@ -2708,6 +2715,7 @@ input, select, textarea {
 
 				header.major p br {
 					display: none;
+					
 				}
 
 		footer.major {
@@ -3093,11 +3101,14 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
+			color: #a10e0e;
+			font-weight: bold;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			font-style:normal;
 		}
 
 		#header.alt {
@@ -3298,6 +3309,9 @@ input, select, textarea {
 					-webkit-transition: font-size 0.2s ease;
 					-ms-transition: font-size 0.2s ease;
 					transition: font-size 0.2s ease;
+					background-color: #000000;
+					color: #dddddd;
+					font-weight: bold;
 					display: inline-block;
 					height: 2.25em;
 					line-height: 2.25em;
@@ -3312,8 +3326,8 @@ input, select, textarea {
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
 						box-shadow: none;
+				
 					}
 
 		#nav.alt {
@@ -3332,6 +3346,7 @@ input, select, textarea {
 
 				#nav.alt ul li a {
 					font-size: 0.9em;
+					
 				}
 
 		@media screen and (max-width: 736px) {
