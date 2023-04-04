@@ -1,22 +1,55 @@
-body {
-  /* Definir um background padrão */
-  background-color: #a73c3c;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: brown;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
 #titulo {
   position: absolute;
-  top: 5%;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1;
-  color: rgb(0, 0, 0);
-  background-color: #a73c3c;
+  padding: 10px;
+  color: #000;
 }
 
+.imagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.imagens img {
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+}
 
-img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@media screen and (max-width: 768px) {
+  .imagens {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagens img {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  #titulo {
+    font-size: 24px;
+    padding: 5px;
+    color: #000;
+  }
 }
