@@ -80,7 +80,8 @@ input, select, textarea {
   }
   
   .statistics .style1,
-  .statistics .style2 {
+  .statistics .style2,
+  .statistics .style3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -114,11 +115,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #000000;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #000000 15%, #000000 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #000000 15%, #000000 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #000000 15%, #000000 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #160f0f 15%, #000000 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -135,7 +136,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #000000;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2200,7 +2201,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #000000;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2306,23 +2307,23 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #000000;
 		}
 
 		.icon.style2 {
-			color: #c79cc8;
+			color: #000000;
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #000000;
 		}
 
 		.icon.style4 {
-			color: #9bb2e1;
+			color: #000000;
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #000000;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2907,15 +2908,16 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #990f0f;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #990f0f;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #990f0f;
+
 			}
 
 			.statistics li.style4 {
@@ -3480,7 +3482,7 @@ input, select, textarea {
 		#main select,
 		#main textarea {
 			background-color: rgba(222, 222, 222, 0.25);
-			border-color: #dddddd;
+			border-color: #3d2c2c;
 		}
 
 			#main input[type="text"]:focus,
@@ -3498,7 +3500,7 @@ input, select, textarea {
 
 			#main select option {
 				color: #636363;
-				background: #ffffff;
+				background: #4e3d3d;
 			}
 
 		#main input[type="checkbox"] + label,
@@ -3509,14 +3511,14 @@ input, select, textarea {
 			#main input[type="checkbox"] + label:before,
 			#main input[type="radio"] + label:before {
 				background: rgba(222, 222, 222, 0.25);
-				border-color: #dddddd;
+				border-color: #856b6b;
 			}
 
 		#main input[type="checkbox"]:checked + label:before,
 		#main input[type="radio"]:checked + label:before {
 			background-color: #636363;
 			border-color: #636363;
-			color: #ffffff;
+			color: #704848;
 		}
 
 		#main input[type="checkbox"]:focus + label:before,
@@ -3576,10 +3578,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #77464c, #000000, #000000);
+			background-image: -webkit-linear-gradient(90deg, #7c494f, #000000, #000000);
+			background-image: -ms-linear-gradient(90deg, #75454a, #000000, #000000);
+			background-image: linear-gradient(90deg, #855358, #000000, #000000);
 		}
 
 		#main table tbody tr {
