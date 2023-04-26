@@ -89,14 +89,12 @@ input, select, textarea {
   }
   
   .imagem-responsiva {
-	max-width: 100%;
+	width: 100%;
 	height: auto;
-	max-width: 350px;
-	min-width: 350px;
-	max-height: 350px;
-	min-height: 390px;
-    border-radius: 20%;
-	
+	max-width: 500px;
+	min-width: 10px;
+	min-height: 10px;
+	border-radius: 50%;
   }
   
 
