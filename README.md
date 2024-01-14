@@ -8,7 +8,7 @@
 
 Bem-vindo ao site oficial do **EL Pistoleiro de las Noches**, um mundo onde aventura e ação se encontram em cada esquina. Neste portal, você pode explorar tudo sobre o jogo, desde *assets* visuais até atualizações de desenvolvimento e muito mais.
 
-[Visite o Site Oficial](https://mestrewilll.github.io/EL-Pistoleiro-de-las-noches-SITE/)
+[Visite o Site Oficial](https://game.willdev.com.br/)
 
 ---
 
@@ -34,4 +34,4 @@ Apesar da mudança para a Godot, os *assets* originais criados na Unity continua
 
 Convidamos você a acompanhar nossa jornada de desenvolvimento através do nosso site oficial e canais de mídia social. Seja parte desta aventura em *EL Pistoleiro de las Noches* e veja a magia acontecer, um pixel de cada vez.
 
-[Explore o Mundo de EL Pistoleiro](https://mestrewilll.github.io/EL-Pistoleiro-de-las-noches-SITE/)
+[Explore o Mundo de EL Pistoleiro](https://game.willdev.com.br/)
