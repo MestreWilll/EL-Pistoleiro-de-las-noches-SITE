@@ -28,6 +28,7 @@
 						<link rel="stylesheet" href="styles.css">
 					</header>
 
+					
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
@@ -35,6 +36,7 @@
 							<li><a href="#first">Animações</a></li>
 							<li><a href="#second">Desenvolvimento</a></li>
 							<li><a href="#cta">Sobre</a></li>
+							<li><a href="https://github.com/MestreWilll/GodotV4-Learning-ElPistoleiroGame" target="_blank">Repositório</a></li>
 						</ul>
 					</nav>
 
@@ -51,7 +53,7 @@
 										<p><strong style="color: black; font-weight: bold;">Estamos à procura de artistas talentosos para se juntar à nossa equipe e ajudar a dar vida ao "El Pistoleiro de Las Noches". Se você é apaixonado por arte e jogos, esta é a sua chance! 🎨🕹️</strong></p>
 										<p><strong style="color: black; font-weight: bold;">Todos os sprites, atualizações e alterações estão sempre sendo atualizados. Se você está interessado e quer fazer parte desta aventura, por favor, entre em contato conosco. Nossos detalhes de contato estão no final do site. 👇</strong></p>
 										<ul class="actions">
-											<li><a href="#cta" class="button" style="font-weight: bold; color: green; background-color: rgb(20, 19, 19); border: 2px solid rgb(48, 17, 133); padding: 0px 20px; text-align: center; vertical-align: middle; border-radius: 20px;">Entre em contato agora!</a></li>
+											<li><a href="#sobre" class="button" style="font-weight: bold; color: green; background-color: rgb(20, 19, 19); border: 2px solid rgb(48, 17, 133); padding: 0px 20px; text-align: center; vertical-align: middle; border-radius: 20px;">Entre em contato agora!</a></li>
 										</ul>
 									</div>
 									<span class="image"><img src="images/Anuncio.png" alt="" /></span>
@@ -63,7 +65,7 @@
 										</header>
 										<p>"El Pistoleiro de Las Noches" é um jogo de aventura onde o protagonista, conhecido como Pistoleiro, é um herói que protege as ruas da cidade durante a noite. Sua missão é eliminar a ameaça representada pelo vilão Tony Bigode, um gângster que controla o submundo da cidade.</p>
 										<ul class="actions">
-											<li><a href="generic.html" class="button" style="color: black !important; font-weight: bold !important;">Ler mais</a></li>
+											<li><a href="HistoriaDelPist.html" class="button" style="color: black !important; font-weight: bold !important;">Ler mais</a></li>
 										</ul>
 									</div>
 									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
@@ -194,7 +196,7 @@
 								</header>
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="generic.html" class="button primary"><i class="fas fa-book"></i> Conheça a Historia</a></li>
+										<li><a href="HistoriaDelPist.html" class="button primary"><i class="fas fa-book"></i> Conheça a Historia</a></li>
 										<li><a href="https://github.com/MestreWilll/GodotV4-Learning-ElPistoleiroGame" target="_blank" class="button primary"><i class="fab fa-github"></i> Repositório GitHub</a></li>
 									</ul>
 								</footer>
@@ -254,7 +256,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+				  var sobreLink = document.querySelector('a[href="#sobre"]');
+				  sobreLink.addEventListener('click', function(e) {
+					e.preventDefault();
+					document.querySelector(this.getAttribute('href')).scrollIntoView({
+					  behavior: 'smooth'
+					});
+				  });
+				});
+				</script>
+			<footer id="sobre">
+				<!-- Seu conteúdo de rodapé aqui -->
+			</footer>
 	</body>
 	
 

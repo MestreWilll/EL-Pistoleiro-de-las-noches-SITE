@@ -23,7 +23,7 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-
+  
 body {
 	line-height: 1;
 }
@@ -3657,6 +3657,9 @@ input, select, textarea {
 				}
 
 		}
+		html {
+			scroll-behavior: smooth;
+		  }
 
 		@media screen and (max-width: 980px) {
 
@@ -3762,6 +3765,7 @@ input, select, textarea {
 				display: block;
 				margin: 0 0 3em 0;
 				width: 100%;
+				
 			}
 
 				#footer > * {
@@ -3773,6 +3777,10 @@ input, select, textarea {
 				#footer .copyright {
 					text-align: left;
 				}
+
+               #footer #sobre {
+				display: none;
+               }
 
 		}
 
@@ -3799,6 +3807,11 @@ input, select, textarea {
 			}
 
 		}
+
+	#sobre {
+		position: absolute;
+		bottom: 500;
+	}
 
 /* Wrapper */
 
