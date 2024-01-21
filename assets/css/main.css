@@ -68,7 +68,26 @@ input, select, textarea {
 }
 
 /* Basic */
-
+.button-stilos {
+   font-weight: bold; /* Deixa a letra em negrito */
+   font-size: larger; /* Aumenta um pouco o tamanho da fonte */
+	background-color: black;
+	color: rgb(136, 125, 125);
+	border-radius: 15px;
+	padding: 10px 20px;
+	text-decoration: none;
+	display: inline-block;
+	transition: background-color 0.3s ease;
+}
+.button-stilos:hover {
+	background-color: #333;
+}
+.progresso {
+   text-align: center;
+   font-weight: bold; /* Mais grosso */
+   color: #000000; /* Mais preto */
+   text-shadow: 4px 4px 8px #000000; /* Sombra para deixar o texto mais destacado e bonito */
+}
 .responsive-image {
 	max-width: 100%;
 	height: auto;
