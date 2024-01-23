@@ -73,7 +73,7 @@ input, select, textarea {
    font-weight: bold; /* Deixa a letra em negrito */
    font-size: larger; /* Aumenta um pouco o tamanho da fonte */
 	background-color: black;
-	color: rgb(136, 125, 125);
+	color: rgb(46, 216, 4);
 	border-radius: 15px;
 	padding: 10px 20px;
 	text-decoration: none;
@@ -81,14 +81,31 @@ input, select, textarea {
 	transition: background-color 0.3s ease;
 }
 .button-stilos:hover {
-	background-color: #333;
+	background-color: #ee0000;
 }
-.progresso {
-   text-align: center;
-   font-weight: bold; /* Mais grosso */
-   color: #000000; /* Mais preto */
-   text-shadow: 4px 4px 8px #000000; /* Sombra para deixar o texto mais destacado e bonito */
+.progresso-titulo {
+	text-align: center;
+	font-weight: bold; /* Mantém a letra em negrito */
+	font-size: 50px; /* Mantém o tamanho da fonte aumentado */
+	color: rgb(255, 255, 255); /* Mantém a cor do texto preta */
+	padding: 50px; /* Ajusta o padding para ser uniforme */
+	text-decoration: none; /* Mantém o texto sem decoração */
+	transition: background-color 0.3s ease; /* Suaviza a transição da cor de fundo */
+	border-style: solid; /* Altera o estilo da borda para sólido */
+	border-width: 1px; /* Define a largura da borda */
+	border-color: #ff0000; /* Define a cor da borda como preta */
+	background-color: rgb(63, 16, 16);
+	border-radius: 30px;
+	text-shadow: 2px 3px 3px #ffffff; /* Sombra para deixar o texto mais destacado e bonito */
+
 }
+.progresso-descricao {
+	text-align: center;
+	font-weight: 50px; /* Mais grosso */
+	color: #ffffff; /* Mais preto */
+	text-shadow: 1px 1px 1px #00ff6a; /* Sombra para deixar o texto mais destacado e bonito */
+ }
+
 .responsive-image {
 	max-width: 100%;
 	height: auto;
