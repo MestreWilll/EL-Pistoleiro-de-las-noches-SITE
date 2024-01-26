@@ -71,14 +71,16 @@ input, select, textarea {
 
 .button-stilos {
    font-weight: bold; /* Deixa a letra em negrito */
-   font-size: larger; /* Aumenta um pouco o tamanho da fonte */
-	background-color: black;
-	color: rgb(46, 216, 4);
+	background-color: rgb(0, 0, 0);
+	text-align: center;
+	color: rgb(255, 255, 255);
 	border-radius: 15px;
-	padding: 10px 20px;
+	padding: 10px 20px; /* Ajusta o padding para ser mais proporcional */
 	text-decoration: none;
 	display: inline-block;
 	transition: background-color 0.3s ease;
+	font-size: 1em; /* Ajusta o tamanho da fonte para ser proporcional ao botão */
+	margin-top: -10px; /* Coloca o botão um pouco para cima */
 }
 .button-stilos:hover {
 	background-color: #ee0000;
@@ -99,12 +101,42 @@ input, select, textarea {
 	text-shadow: 1px 2px 2px #ffffff; /* Sombra para deixar o texto mais destacado e bonito */
 
 }
+.progresso-titulo2 {
+	text-align: center;
+	font-weight: bold; /* Mantém a letra em negrito */
+	font-size: 30px; /* Mantém o tamanho da fonte aumentado */
+	color: rgb(0, 0, 0); /* Mantém a cor do texto preta */
+	padding: 0px; /* Ajusta o padding para ser uniforme */
+	text-decoration: underline; /* Coloca uma linha em baixo da letra */
+	transition: background-color 0.3s ease; /* Suaviza a transição da cor de fundo */
+	border-width: 0px; /* Define a largura da borda */
+	text-shadow: 1px 1px 1px #000000; /* Sombra para deixar o texto mais destacado e bonito */
+
+}
+.progresso-titulo3 {
+	text-align: center;
+	font-weight: bold; /* Deixa a letra em negrito */
+	font-size: 28px; /* Tamanho da fonte aumentado */
+	color: rgb(0, 0, 0); /* Cor do texto preta */
+	transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+	border-width: 0px; /* Sem borda */
+	text-shadow: 1px 1px 1px #000000; /* Sombra no texto para destaque */
+}
+
+
 .progresso-descricao {
 	text-align: center;
 	font-weight: 50px; /* Mais grosso */
 	color: #ffffff; /* Mais preto */
 	text-shadow: 1px 1px 1px #00ff6a; /* Sombra para deixar o texto mais destacado e bonito */
  }
+ .progresso-descricao2 {
+	text-align: center;
+	font-weight: bold; /* Mantém o texto em negrito */
+	color: #247423; /* Altera a cor do texto para um verde escuro */
+	outline-width: 10px; /* Adiciona uma largura de contorno média */
+ }
+
 
 .responsive-image {
 	max-width: 100%;
