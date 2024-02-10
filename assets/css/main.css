@@ -68,7 +68,10 @@ input, select, textarea {
 }
 
 /* Basic */
-
+.botao_download {
+	width: 100%; /* Tamanho responsivo */
+	max-width: 200px; /* Espaço para escolher o tamanho */
+}
 .button-stilos {
    font-weight: bold; /* Deixa a letra em negrito */
 	background-color: rgb(0, 0, 0);
