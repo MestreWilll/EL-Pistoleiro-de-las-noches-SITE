@@ -14,7 +14,8 @@ Bem-vindo ao site oficial do **EL Pistoleiro de las Noches**, um mundo onde aven
 
 ## Baixe a Demo e Veja o Progresso
 
-- 📱 [**Clique para Baixar para Android**](https://dl.dropboxusercontent.com/scl/fi/wkili2vo98l8bd3a7g5n4/El-pistoleiro-de-las-nochesDEMO.apk?rlkey=metl6oqx47fjqxupzpe623om3&dl=0)
+- 📱 [**Clique para Baixar para Android**](https://dl.dropboxusercontent.com/scl/fi/14cw11j3wb2bo09znak7n/El-Pistoleiro-de-las-noches_Alpha_Demo.apk?rlkey=ygrivme3b1966v2q6repdmulq&dl=0)
+- 
 - 💻 [**Clique para Baixar para Windows**](https://dl.dropboxusercontent.com/scl/fi/837418abi1c8uahk1zlch/El-Pistoleiro-de-las-nochesDEMO.rar?rlkey=v4our8vlmscf5pgx7ih7mygyi&dl=0)
 
 *O intuito das demos é para que os artistas vejam o que pode ser feito, além de mostrar os progressos.*
