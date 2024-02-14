@@ -69,8 +69,11 @@ input, select, textarea {
 
 /* Basic */
 .botao_download {
-	width: 100%; /* Tamanho responsivo */
-	max-width: 200px; /* Espaço para escolher o tamanho */
+	width: 80%; /* Tamanho responsivo ajustado para mobile */
+	max-width: 150px; /* Tamanho máximo ajustado para não ficar nem muito grande nem muito pequeno */
+	min-width: 60px; /* Tamanho mínimo para garantir visibilidade em dispositivos muito pequenos */
+	margin: 0 auto; /* Deixa no centro */
+	display: block; /* Necessário para aplicar margin auto */
 }
 .button-stilos {
    font-weight: bold; /* Deixa a letra em negrito */
